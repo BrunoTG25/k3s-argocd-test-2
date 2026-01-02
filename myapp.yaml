@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mi-web-app
 spec:
-  replicas: 4 # Vamos a pedir 4 pods de entrada
+  replicas: 4 # Vamos a pedir 2 pods de entrada
   selector:
     matchLabels:
       app: web
